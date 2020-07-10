@@ -4,9 +4,17 @@
     box-sizing: border-box;
     
 }
+html{
+    width:100%;
+    height:100%;
+    margin: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  
 
 }
 #header {
@@ -63,7 +71,7 @@ body{
 
     width: 100%;
     margin: 0 auto; 
-    
+    overflow: hidden;
 }
 #leftHalf{
     
@@ -144,7 +152,7 @@ img {
 
     width: 100%;
     margin: 0 auto; 
-    
+    overflow: hidden;
 }
 .narrow{
     width: 100%;
@@ -198,7 +206,7 @@ img {
 /*project*/
 .projects{
     
-
+    overflow: hidden;
     width: 100%;
     margin: 0 auto; 
     
@@ -209,6 +217,7 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 100px 100px 100px 100px;
+    
 
 }
 #subject-text2{
@@ -220,8 +229,7 @@ img {
     background: url(img/brain.jpg);
     background-size: 100% 100%;
     padding-top: 50px;
-    width: 300px;
-    height: 50vh;
+    min-height: 50vh;
     transition: all 0.3s ease 0s;
     box-shadow: 5px 5px 15px #000;
     margin-bottom: 2rem;
@@ -266,7 +274,7 @@ img {
 
 /*Contact me*/
 .contact{
-    
+    overflow: hidden;
 
     width: 100%;
     margin: 0 auto; 
@@ -277,7 +285,7 @@ img {
     background: rgb(50, 78, 97);
     width: 100%;
     margin: 0 auto;
-    padding: 100px 150px 150px 150px;
+    padding: 100px 50px 150px 50px;
 
 }
 .contact-box p{
@@ -349,10 +357,10 @@ img {
     }
     .contact-box{
 
-        background: rgb(66, 66, 66);
+        background: rgb(50, 78, 97);
         width: 100%;
         margin: 0 auto;
-        padding: 50px 50px 50px 50px;
+        padding: 50px 20px 50px 20px;
     
     }
 }
