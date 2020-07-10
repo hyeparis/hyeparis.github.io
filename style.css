@@ -157,7 +157,7 @@ img {
 .narrow{
     width: 100%;
     margin: 0 auto;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 50px 150px 50px;
     background: white;
 }
 
@@ -216,7 +216,7 @@ img {
     background: rgb(255, 217, 0);
     width: 100%;
     margin: 0 auto;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 50px 150px 50px;
     
 
 }
@@ -357,10 +357,18 @@ img {
     }
     .contact-box{
 
-        background: rgb(50, 78, 97);
-        width: 100%;
-        margin: 0 auto;
-        padding: 50px 20px 50px 20px;
+        padding: 50px 30px 50px 30px;
+    
+    }
+    .narrow{
+
+        
+        padding: 50px 30px 50px 30px;
+    }
+    .projects-box{
+
+        padding: 50px 30px 50px 30px;
+        
     
     }
 }
