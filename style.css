@@ -78,18 +78,22 @@ body{
     height: auto;
     width:100%;
     background: linear-gradient(to right, rgb(53, 53, 53), #959595);
+
 }
 #rightHalf{
     height: auto;
     background: linear-gradient(to right, #959595, white);
     width:100%;
     padding:0;
+
    
 }
 
 .leftAlignment{
     padding:300px 0 0 100px;
+    
 }
+
 .main h1{
     margin: 0;
     padding: 0;
@@ -147,6 +151,7 @@ img {
 }
  
 /*about me*/
+
 .about{
 
 
@@ -159,15 +164,10 @@ img {
     margin: 0 auto;
     padding: 100px 50px 150px 50px;
     background: white;
+    
 }
 
-.heading-underline{
-    width: 3rem;
-    height: .2rem;
-    background-color: rgb(255, 238, 4);
-    margin: 0 auto 10rem;
-  
-}
+
 
 .heading-underline2{
     width: 3rem;
@@ -179,6 +179,7 @@ img {
 }
 .narrow h2{
     color:black;
+
 }
 .aboutMe {
     background: rgb(49, 49, 49);
@@ -187,6 +188,8 @@ img {
 .aboutMe p{
     padding-bottom: 3rem;
     color:white;
+    padding-left: 10px;
+    padding-right: 10px;
    
 }
 .aboutMe h3{
@@ -203,6 +206,168 @@ img {
     font-style: italic;
     padding-bottom: 20px;
 }
+#skills{
+    width: 500px;
+    margin: 30px auto;
+    color: rgb(42, 42, 42);
+    padding-left:70px;
+    padding-right:70px;
+}
+#skills li{
+    margin: 20px 0;
+
+    list-style: none;
+}
+#skills h3{
+    font-size: 1rem;
+}
+#title-skill{
+    padding-top: 30px;
+    font-weight: 700;
+
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ccb801b3;
+}
+.bar span{
+    height:10px;
+    float:left;
+    background: #ffe600;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+
+}
+.php{
+    width: 70%;
+    animation: php 2s;
+}
+.js{
+    width: 60%;
+    animation: js 2s;
+}
+.bootstrap{
+    width: 80%;
+    animation: bootstrap 2s;
+}
+.java{
+    width: 90%;
+    animation: java 2s;
+}
+.mysql{
+    width: 80%;
+    animation: mysql 2s;
+}
+.node{
+    width: 60%;
+    animation: node 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+/*
+#skills{
+    width:100%;
+    max-width:600px;
+    padding: 0 20px;
+
+}
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+.skill-bar{
+    height: 20px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+.skill-per{
+    height: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    width: 50%;
+    position: relative;
+}
+*/
 /*project*/
 .projects{
     
@@ -226,13 +391,24 @@ img {
     padding-bottom: 5rem;
 }
 .myWork {
-    background: url(img/brain.jpg);
-    background-size: 100% 100%;
     padding-top: 50px;
     min-height: 50vh;
     transition: all 0.3s ease 0s;
     box-shadow: 5px 5px 15px #000;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+#firstWork{
+    background: url(img/project1-newLogo.png);
+    background-size: 100% 100%;
+}
+#secondWork{
+    background: url(img/project1-newLogo.png);
+    background-size: 100% 100%;
+}
+#thirdWork{
+    background: url(img/project1-newLogo.png);
+    background-size: 100% 100%;
 }
 .myWork .overlay-text{
     width:100%;
@@ -271,7 +447,17 @@ img {
 .myWork:hover .overlay-text{
     opacity: 1;
 }
+.myWork h1{
+    color:rgb(255, 252, 224);
+}
+.title{
+    color:white;
 
+}
+.post{
+    color: white;
+
+}
 /*Contact me*/
 .contact{
     overflow: hidden;
@@ -285,7 +471,7 @@ img {
     background: rgb(50, 78, 97);
     width: 100%;
     margin: 0 auto;
-    padding: 100px 50px 150px 50px;
+    padding: 100px 50px 100px 50px;
 
 }
 .contact-box p{
@@ -306,15 +492,151 @@ img {
 #btnSend::after{
     clear:both;
 }
+/*project-1*/
+.bg-dark{
+    background: transparent !important;
+ 
+}
+.bg-dark.scrolled{
+    background: rgb(93, 93, 93) !important;
+    
+}
+
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color:rgb(71, 71, 71);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+  
+}
+.initial{
+    font-size:5rem;
+    color:rgb(255, 255, 255);
+    background: none;
+}
+.project1-main{
+    overflow:hidden;
+    color:black
+  
+}
+.project1-logo{
+    margin: 0 auto;
+    padding-left:150px;
+}
+.project1-submain{
+    background: url(img/bae2.png);
+    background-size: auto 100%;
+    padding: 150px 0 150px 0;
+    width: 100%;
+    height:auto;
+  /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
+}
+.project1-title{
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+ 
+   
+}
+#project1-about {
+    padding: 50px 150px 50px 150px;
+}
+#project1-tool{
+    padding: 0px 150px 50px 150px;
+ 
+}
+#project1-features{
+    padding: 0px 150px 50px 150px;
+}
+.project1-screenshot{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 100px 100px 150px;
+}
+#bae1{
+    
+    min-height: 70vh;
+    background: url(img/bae-1.jpg);
+    background-size: 100% 100%;
+}
+#bae2{
+  
+    min-height: 70vh;
+    background: url(img/bae-2.jpg);
+    background-size: 100% 100%;
+}
+#bae3{
+  
+    min-height: 70vh;
+    background: url(img/bae-3.jpg);
+   background-size: 100% 100%;
+}
+#bae4{
+   
+    min-height: 70vh;
+    background: url(img/bae-4.jpg);
+    background-size: 100% 100%;
+}
+#bae5{
+   
+    min-height: 70vh;
+    background: url(img/bae-5.jpg);
+    background-size: 100% 100%;
+}
+
+#bae6{
+   
+    min-height: 70vh;
+    background: url(img/bae-6.jpg);
+    background-size: 100% 100%;
+}
+
+#bae7{
+   
+    min-height: 70vh;
+    background: url(img/bae-7.jpg);
+    background-size: 100% 100%;
+}
+
+#bae8{
+   
+    min-height: 70vh;
+    background: url(img/bae-8.PNG);
+    background-size: 100% 100%;
+}
+#btnSeeCode {
+    padding-left:70px;
+    padding-right:70px;
+    margin-bottom: 50px;
+   
+}
 
 
+/*footer*/
+footer{
+    overflow: hidden;
+    background:rgb(53, 53, 53);
+    padding: 15px 0 0px 0;
+    color:white;
+}
+footer p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+mark.footer-mark{
+    color: rgb(255, 238, 4);
+    background: none;
+}
 /*responsive*/
 @media (max-width: 768px) {
+    .bg-light{
+        background: rgb(250, 250, 250) !important;
+        
+    }
+    
     #leftHalf, #rightHalf{
         height: 100vh;
-     
         margin:0 auto;
-   
     }
     .leftAlignment{
       margin:0 auto;
@@ -339,15 +661,9 @@ img {
         margin: 0 auto;
     }
     .aboutMe h3{
-        padding-top: 3rem;
-       
+        padding-top: 3rem;  
     }
     
-    .heading-underline{
-  
-    margin: 0 auto 5rem;
-  
-    }
     #rightHalf{
         display: none !important;
     }
@@ -356,20 +672,44 @@ img {
         padding: 5px 20px;
     }
     .contact-box{
-
-        padding: 50px 30px 50px 30px;
-    
+        padding: 50px 30px 50px 30px;  
     }
-    .narrow{
-
-        
+    .narrow{  
         padding: 50px 30px 50px 30px;
     }
     .projects-box{
-
         padding: 50px 30px 50px 30px;
-        
-    
+    }
+    #project1-about {
+        padding: 50px 50px 50px 50px;
+    }
+    .project1-submain{
+    background: url(img/bae2.png);
+    background-size: 100% 100%;
+    padding: 100px 0 100px 0;
+    }
+    .initial{
+        font-size:3rem;
+    }
+    .project1-title{
+        font-size:0.5rem;
+    }
+    .project1-logo{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    #project1-about {
+        padding: 30px 50px 30px 50px;
+    }
+    #project1-tool{
+        padding: 30px 50px 30px 50px;
+     
+    }
+    #project1-features{
+        padding: 30px 50px 30px 50px;
+    }
+    .project1-screenshot{
+        padding: 30px 50px 30px 50px;
     }
 }
   
