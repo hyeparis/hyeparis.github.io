@@ -8,12 +8,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
         <title>Hyewon Joo Portfolio</title>
     </head>
-    <body>
+    <body data-aos="fade-in">
         <section id="header">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
@@ -57,12 +58,12 @@
                 <div class="row">
                     <div class="col-md-6" id="project1-tool">
                         <h3>Software Toolset</h3>
-                    <div class="heading-underline"></div>
+            
                     <img class="project1-logo" src="img/project1-logo.png">
                     </div>
                     <div class="col-md-6" id="project1-features">
                         <h3>Features</h3>
-                        <div class="heading-underline"></div>
+                       
                         <p>Registration and login</p>
                         <p>List of Services</p>
                         <p>Send and receive notification</p>
@@ -72,9 +73,9 @@
             </div>
             <div class="project1-screenshot">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12 text-left">
                 <h3>Application Layout</h3>
-                <div class="heading-underline"></div>
+              
             </div>
             </div>
             
@@ -84,7 +85,7 @@
                 <div class="col-md-3" id="bae3"></div>
                 <div class="col-md-3" id="bae4"></div>
             </div>
-            <div class="row">
+            <div class="row" id="screenshot1-box">
                 <div class="col-md-3" id="bae5"></div>
                 <div class="col-md-3" id="bae6"></div>
                 <div class="col-md-3" id="bae7"></div>
@@ -100,7 +101,14 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-       <script>
+      
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script type="text/JavaScript">
+          AOS.init({
+              duration: 2000,
+          });
+        </script>
+      <script>
         $(window).scroll(function(){
             $('nav').toggleClass('scrolled', $(this).scrollTop() >200)
             });

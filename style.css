@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 html{
     width:100%;
     height:100%;
@@ -16,6 +17,16 @@ body{
     margin: 0;
   
 
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateX(0px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 #header {
     position: absolute;
@@ -77,12 +88,29 @@ body{
     
     height: auto;
     width:100%;
-    background: linear-gradient(to right, rgb(53, 53, 53), #959595);
+    background: rgb(255, 254, 254);
+    animation: backTransition 3s;
 
+}
+
+
+@keyframes backTransition{
+    0%{
+        background-color: rgb(255, 254, 254);;
+        transform: translateX(-500px);
+    }
+    100%{
+        background: rgb(255, 254, 254);
+         transform: translateX(0%);
+    }
 }
 #rightHalf{
     height: auto;
-    background: linear-gradient(to right, #959595, white);
+    background-color: yellow;
+  background-image: linear-gradient(30deg, yellow 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(30deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888);
+  background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
+  background-size: 50px 100px;
+   /* background: linear-gradient(to right, #959595, white);*/
     width:100%;
     padding:0;
 
@@ -90,7 +118,7 @@ body{
 }
 
 .leftAlignment{
-    padding:300px 0 0 100px;
+    padding:200px 0 50px 100px;
     
 }
 
@@ -100,7 +128,7 @@ body{
     font-size: 4em;
     font-weight: bold;
    
-    color:white;
+    color:black;
     
  
 }
@@ -108,9 +136,9 @@ body{
 .main h2{
     margin: 0;
     padding: 0;
-    font-size: 2em;
+    font-size: 1.2em;
 
-    color:white;
+    color:black;
     
 }
 
@@ -118,24 +146,28 @@ body{
     margin:0;
     padding: 0;
     font-size: 1.5em;
-    color:white;
+    color:black;
 }
 mark.name{
-    color: rgb(255, 238, 4);
-    background: none;
+    display: inline-block;
+    line-height: 0em;
+    
+    padding-bottom: 0.5em;
+    background-color: yellow;
 }
 .main #btnResume{
     margin-top: 2em;
-    background-color: transparent;
-    border-color: rgb(255, 238, 4);
+    background-color: white;
+    border-color: rgb(53, 53, 53);
     animation: fadeIn; 
     animation-duration: 8s;
-    color:  rgb(255, 238, 4);
+    color:  rgb(53, 53, 53);
     margin-bottom: 10em;
 }
 .main #btnResume:hover{
-    background-color: rgb(255, 238, 4);
+ 
     color:  rgb(255, 255, 255);
+    background-color: rgb(53, 53, 53);
    
 }
 
@@ -185,6 +217,24 @@ img {
     background: rgb(49, 49, 49);
     padding-top: 50px;
 }
+/* circle
+.aboutMe h1{
+    width: 1em;
+    height: 1em;
+    box-sizing: initial;
+    font-size:2em;
+    background: #fff;
+    border: 0.1em solid rgb(255, 255, 255);
+   
+    text-align: center;
+    border-radius: 50%;    
+    margin: 0 auto;
+    line-height: 1em;
+    box-sizing: content-box;   
+    color: black;
+
+    margin-bottom: 3rem;
+}*/
 .aboutMe p{
     padding-bottom: 3rem;
     color:white;
@@ -523,6 +573,7 @@ img {
 .project1-logo{
     margin: 0 auto;
     padding-left:150px;
+    float:left;
 }
 .project1-submain{
     background: url(img/bae2.png);
@@ -548,10 +599,16 @@ img {
 #project1-features{
     padding: 0px 150px 50px 150px;
 }
+
 .project1-screenshot{
     width: 100%;
     margin: 0 auto;
-    padding: 100px 100px 100px 150px;
+    padding: 0px 150px 50px 150px;
+}
+
+.project1-screenshot h3{
+    padding-bottom: 30px;
+    padding-top : 50px;
 }
 #bae1{
     
@@ -637,6 +694,7 @@ mark.footer-mark{
     #leftHalf, #rightHalf{
         height: 100vh;
         margin:0 auto;
+        animation:none;
     }
     .leftAlignment{
       margin:0 auto;
