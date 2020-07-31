@@ -88,12 +88,13 @@ body{
     
     height: auto;
     width:100%;
-    background: rgb(255, 254, 254);
-    animation: backTransition 3s;
+    background-image: url(img/cover1.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
 
 }
 
-
+/*
 @keyframes backTransition{
     0%{
         background-color: rgb(255, 254, 254);;
@@ -104,21 +105,25 @@ body{
          transform: translateX(0%);
     }
 }
+
 #rightHalf{
     height: auto;
-    background-color: yellow;
+    
+    background-color: rgb(255, 217, 0);
   background-image: linear-gradient(30deg, yellow 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(30deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888);
   background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
   background-size: 50px 100px;
-   /* background: linear-gradient(to right, #959595, white);*/
+   background: linear-gradient(to right, #959595, white);
+   background-image: url(img/cover1.jpg);
+   background-size:100% 100%;
     width:100%;
     padding:0;
 
    
 }
-
+*/
 .leftAlignment{
-    padding:200px 0 50px 100px;
+    padding:200px 0 50px 0;
     
 }
 
@@ -128,7 +133,7 @@ body{
     font-size: 4em;
     font-weight: bold;
    
-    color:black;
+    color:white;
     
  
 }
@@ -138,7 +143,7 @@ body{
     padding: 0;
     font-size: 1.2em;
 
-    color:black;
+    color:white;
     
 }
 
@@ -146,28 +151,30 @@ body{
     margin:0;
     padding: 0;
     font-size: 1.5em;
-    color:black;
+    color:white;
 }
 mark.name{
     display: inline-block;
     line-height: 0em;
-    
+   color:yellow;
     padding-bottom: 0.5em;
-    background-color: yellow;
+    background-color: transparent;
 }
 .main #btnResume{
     margin-top: 2em;
-    background-color: white;
-    border-color: rgb(53, 53, 53);
+    background-color: yellow;
+    border-color: yellow;
+  /*
     animation: fadeIn; 
     animation-duration: 8s;
-    color:  rgb(53, 53, 53);
+    */
+    color:  black;
     margin-bottom: 10em;
 }
 .main #btnResume:hover{
  
     color:  rgb(255, 255, 255);
-    background-color: rgb(53, 53, 53);
+    background-color:  rgb(255, 251, 0);
    
 }
 
@@ -279,14 +286,14 @@ img {
 .bar{
     background: #353b48;
     display: block;
-    height: 10px;
+    height: 20px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px #ccb801b3;
 }
 .bar span{
-    height:10px;
+    height:20px;
     float:left;
     background: #ffe600;
 }
@@ -548,7 +555,7 @@ img {
  
 }
 .bg-dark.scrolled{
-    background: rgb(93, 93, 93) !important;
+    background: #909090 !important;
     
 }
 
@@ -694,7 +701,6 @@ mark.footer-mark{
     #leftHalf, #rightHalf{
         height: 100vh;
         margin:0 auto;
-        animation:none;
     }
     .leftAlignment{
       margin:0 auto;
