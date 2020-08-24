@@ -67,7 +67,7 @@ body{
  
 }
 .bg-light.scrolled{
-    background: rgb(250, 250, 250) !important;
+   background: rgb(250, 250, 250) !important;
     
 }
 
@@ -156,14 +156,14 @@ body{
 mark.name{
     display: inline-block;
     line-height: 0em;
-   color:yellow;
+   color:gold;
     padding-bottom: 0.5em;
     background-color: transparent;
 }
 .main #btnResume{
     margin-top: 2em;
-    background-color: yellow;
-    border-color: yellow;
+    background-color: gold;
+    border-color: gold;
   /*
     animation: fadeIn; 
     animation-duration: 8s;
@@ -174,7 +174,7 @@ mark.name{
 .main #btnResume:hover{
  
     color:  rgb(255, 255, 255);
-    background-color:  rgb(255, 251, 0);
+    background-color:  gold;
    
 }
 
@@ -213,7 +213,6 @@ img {
     height: .2rem;
     background-color: rgb(255, 238, 4);
     margin: 0 auto 10rem;
-  
   
 }
 .narrow h2{
@@ -291,15 +290,19 @@ img {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px #ccb801b3;
+    color:white;
+
 }
 .bar span{
     height:20px;
     float:left;
     background: #ffe600;
+
 }
 .html{
     width: 90%;
     animation: html 2s;
+
 
 }
 .css{
@@ -311,12 +314,22 @@ img {
     width: 70%;
     animation: php 2s;
 }
+.react{
+    width: 70%;
+    animation: react 2s;
+
+}
+.mongoDB{
+    width: 60%;
+    animation: mongoDB 2s;
+
+}
 .js{
     width: 60%;
     animation: js 2s;
 }
 .bootstrap{
-    width: 80%;
+    width: 70%;
     animation: bootstrap 2s;
 }
 .java{
@@ -341,6 +354,22 @@ img {
     }
 }
 
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes mongoDB{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
 @keyframes css{
     0%{
         width: 0%;
@@ -397,34 +426,7 @@ img {
         width: 80%;
     }
 }
-/*
-#skills{
-    width:100%;
-    max-width:600px;
-    padding: 0 20px;
 
-}
-.skill-name{
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 20px 0;
-
-}
-.skill-bar{
-    height: 20px;
-    background-color: white;
-    border-radius: 8px;
-
-}
-.skill-per{
-    height: 20px;
-    background-color: yellow;
-    border-radius: 8px;
-    width: 50%;
-    position: relative;
-}
-*/
 /*project*/
 .projects{
     
@@ -454,13 +456,14 @@ img {
     box-shadow: 5px 5px 15px #000;
     margin-bottom: 2rem;
     cursor: pointer;
+    
 }
 #firstWork{
     background: url(img/project1-newLogo.png);
     background-size: 100% 100%;
 }
 #secondWork{
-    background: url(img/project1-newLogo.png);
+    background: url(img/project2-logo.png);
     background-size: 100% 100%;
 }
 #thirdWork{
@@ -555,7 +558,7 @@ img {
  
 }
 .bg-dark.scrolled{
-    background: #909090 !important;
+    background: #746d6d !important;
     
 }
 
@@ -574,7 +577,6 @@ img {
 }
 .project1-main{
     overflow:hidden;
-    color:black
   
 }
 .project1-logo{
@@ -593,24 +595,31 @@ img {
 .project1-title{
     padding-top:50px;
     color:rgb(255, 255, 255);
- 
-   
+    
 }
 #project1-about {
-    padding: 50px 150px 50px 150px;
+    font-style: italic;
+    border: .1rem rgb(38, 44, 100) solid;
+    border-radius: 0.5rem;
+    margin:50px;
 }
 #project1-tool{
-    padding: 0px 150px 50px 150px;
+    padding: 0px 0px 50px 150px;
  
 }
+#project1-tool-img{
+    background: url(img/project1-logo.png);
+    background-size: 100% 100%;
+    padding: 150px 0 150px 0;
+}
 #project1-features{
-    padding: 0px 150px 50px 150px;
+    padding: 0px 100px 50px 100px;
 }
 
 .project1-screenshot{
     width: 100%;
     margin: 0 auto;
-    padding: 0px 150px 50px 150px;
+    padding: 0px 100px 50px 100px;
 }
 
 .project1-screenshot h3{
@@ -674,8 +683,54 @@ img {
     margin-bottom: 50px;
    
 }
+/*project2*/
+.project2-main{
+    overflow:hidden;
+}
+.project2-submain{
+    background: url(img/project2-logo2.png);
+    background-size: 100% 100%;
+    padding: 250px 0 250px 0;
+    width: 100%;
+    height:auto;
+  /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
+}
+.project2-title{
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+}
+#project2-about {
 
-
+    font-style: italic;
+    border: .1rem rgb(38, 44, 100) solid;
+    border-radius: 0.5rem;
+    margin:50px;
+}
+#project2-tool{
+    padding: 0px 0px 50px 150px;
+}
+#project2-tool-img{
+    background: url(img/project2-logo3.png);
+    background-size: 100% 100%;
+    padding: 150px 0 150px 0;
+}
+#project2-app{
+    padding: 0px 0px 10px 150px;
+}
+.heading-underline3{
+    width: 3rem;
+    height: .2rem;
+    background-color:gold;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+  
+}
+.project2Video{
+    width: 900px;
+    height: 700px;
+    margin-bottom: 50px;
+    
+}
 /*footer*/
 footer{
     overflow: hidden;
@@ -727,7 +782,10 @@ mark.footer-mark{
     .aboutMe h3{
         padding-top: 3rem;  
     }
-    
+    #skills{
+        padding-left:15px;
+        padding-right: 15px;
+    }
     #rightHalf{
         display: none !important;
     }
@@ -752,6 +810,11 @@ mark.footer-mark{
     background-size: 100% 100%;
     padding: 100px 0 100px 0;
     }
+    .project2-submain{
+        background: url(img/project2-logo2.png);
+        background-size: 100% 100%;
+        padding: 150px 0 150px 0;
+    }
     .initial{
         font-size:3rem;
     }
@@ -766,14 +829,25 @@ mark.footer-mark{
         padding: 30px 50px 30px 50px;
     }
     #project1-tool{
-        padding: 30px 50px 30px 50px;
+        padding: 30px 50px 30px 70px;
      
+    }
+    #project2-tool{
+        padding: 0px 50px 50px 50px;
+    }
+    #project2-app{
+        padding: 0px 0px 10px 50px;
     }
     #project1-features{
         padding: 30px 50px 30px 50px;
     }
     .project1-screenshot{
         padding: 30px 50px 30px 50px;
+    }
+    .project2Video{
+        width: 300px;
+        height: 200px;
+        margin: 30px;
     }
 }
   
