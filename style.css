@@ -426,7 +426,12 @@ img {
         width: 80%;
     }
 }
-
+.perc1{
+    text-align: left;
+}
+.perc2{
+    text-align: left;
+}
 /*project*/
 .projects{
     
@@ -558,7 +563,7 @@ img {
  
 }
 .bg-dark.scrolled{
-    background: #746d6d !important;
+    background: #746d6d9d !important;
     
 }
 
@@ -598,10 +603,14 @@ img {
     
 }
 #project1-about {
-    font-style: italic;
+
+    margin:50px;
+}
+.project1-des{
     border: .1rem rgb(38, 44, 100) solid;
     border-radius: 0.5rem;
-    margin:50px;
+    padding:10px;
+    font-style: italic;
 }
 #project1-tool{
     padding: 0px 0px 50px 150px;
@@ -695,15 +704,20 @@ img {
     height:auto;
   /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
 }
+.project2-des{
+    font-style: italic;
+    border: .1rem rgb(38, 44, 100) solid;
+    border-radius: 0.5rem;
+
+    padding: 10px;
+    
+}
 .project2-title{
     padding-top:50px;
     color:rgb(255, 255, 255);
 }
-#project2-about {
 
-    font-style: italic;
-    border: .1rem rgb(38, 44, 100) solid;
-    border-radius: 0.5rem;
+#project2-about {
     margin:50px;
 }
 #project2-tool{
@@ -746,13 +760,30 @@ mark.footer-mark{
     color: rgb(255, 238, 4);
     background: none;
 }
+.isVisible{
+    visibility: collapse;
+}
+
 /*responsive*/
 @media (max-width: 768px) {
-    .bg-light{
-        background: rgb(250, 250, 250) !important;
+    .bg-dark.scrolled{
+        background:transparent !important;
         
     }
+    .isVisible{
+        visibility: visible;
+    }
     
+   .navbar-toggler{
+        background:#5c5b5478;
+        margin-right:10px;
+    }
+    .navbar-collapse
+    {
+        background-color:#4d4c4ccc;
+       
+    }
+
     #leftHalf, #rightHalf{
         height: 100vh;
         margin:0 auto;
@@ -796,15 +827,16 @@ mark.footer-mark{
     .contact-box{
         padding: 50px 30px 50px 30px;  
     }
+    .perc1{
+        text-align: right;
+    }
     .narrow{  
         padding: 50px 30px 50px 30px;
     }
     .projects-box{
         padding: 50px 30px 50px 30px;
     }
-    #project1-about {
-        padding: 50px 50px 50px 50px;
-    }
+  
     .project1-submain{
     background: url(img/bae2.png);
     background-size: 100% 100%;
@@ -825,9 +857,7 @@ mark.footer-mark{
         padding-left:30px;
         padding-right:30px;
     }
-    #project1-about {
-        padding: 30px 50px 30px 50px;
-    }
+  
     #project1-tool{
         padding: 30px 50px 30px 70px;
      
@@ -837,6 +867,14 @@ mark.footer-mark{
     }
     #project2-app{
         padding: 0px 0px 10px 50px;
+    }
+    #project1-about {
+
+        margin:20px;
+    }
+    #project2-about {
+
+        margin:20px;
     }
     #project1-features{
         padding: 30px 50px 30px 50px;
