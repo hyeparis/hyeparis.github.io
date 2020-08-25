@@ -604,12 +604,13 @@ img {
 }
 #project1-about {
   
-    border: .1rem rgb(38, 44, 100) solid;
-    border-radius: 0.5rem;
     margin:50px;
 }
 .project1-des{
     font-style: italic;
+    border: .1rem rgb(38, 44, 100) solid;
+    border-radius: 0.5rem;
+    padding:10px;
 }
 #project1-tool{
     padding: 0px 0px 50px 150px;
@@ -705,6 +706,9 @@ img {
 }
 .project2-des{
     font-style: italic;
+    border: .1rem rgb(38, 44, 100) solid;
+    border-radius: 0.5rem;
+    padding:10px;
 
 }
 .project2-title{
@@ -713,8 +717,7 @@ img {
 }
 
 #project2-about {
-    border: .1rem rgb(38, 44, 100) solid;
-    border-radius: 0.5rem;
+ 
     margin:50px;
 }
 #project2-tool{
