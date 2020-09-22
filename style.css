@@ -18,6 +18,7 @@ body{
   
 
 }
+
 @keyframes transitionIn{
     from{
         opacity: 0;
@@ -85,43 +86,29 @@ body{
     overflow: hidden;
 }
 #leftHalf{
-    
-    height: auto;
-    width:100%;
-    background-image: url(img/cover1.jpg);
-    background-size: 100% 100%;
-    margin: 0 auto;
-
-}
-
-/*
-@keyframes backTransition{
-    0%{
-        background-color: rgb(255, 254, 254);;
-        transform: translateX(-500px);
-    }
-    100%{
-        background: rgb(255, 254, 254);
-         transform: translateX(0%);
-    }
-}
-
-#rightHalf{
-    height: auto;
-    
-    background-color: rgb(255, 217, 0);
-  background-image: linear-gradient(30deg, yellow 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(30deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(150deg, #444 12%, transparent 12.5%, transparent 87%, #444 87.5%, #444), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888), linear-gradient(60deg, #888 25%, transparent 25.5%, transparent 75%, #888 75%, #888);
-  background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
-  background-size: 50px 100px;
-   background: linear-gradient(to right, #959595, white);
-   background-image: url(img/cover1.jpg);
-   background-size:100% 100%;
-    width:100%;
-    padding:0;
-
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    margin:0;
    
+
 }
-*/
+.mainPage{
+  
+ }
+video{
+    object-fit: cover;
+    z-index: -1;
+    justify-content: center;
+    position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+    min-height: 100%;
+}
+
 .leftAlignment{
     padding:200px 0 50px 0;
     
@@ -132,7 +119,7 @@ body{
     padding: 0;
     font-size: 4em;
     font-weight: bold;
-   
+   margin: 15px 0 15px 0;
     color:white;
     
  
@@ -141,7 +128,7 @@ body{
 .main h2{
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 1.5em;
 
     color:white;
     
@@ -162,17 +149,21 @@ mark.name{
 }
 .main #btnResume{
     margin-top: 2em;
-    background-color: gold;
-    border-color: gold;
+    
+    border-color: white;
+    
   /*
     animation: fadeIn; 
     animation-duration: 8s;
     */
-    color:  black;
+    color:  white;
     margin-bottom: 10em;
+    padding: 12px 26px;
+    font-size:1.3em;
+    background-color: transparent;
 }
 .main #btnResume:hover{
- 
+    border-color: gold;
     color:  rgb(255, 255, 255);
     background-color:  gold;
    
@@ -438,6 +429,7 @@ img {
     overflow: hidden;
     width: 100%;
     margin: 0 auto; 
+
     
 }
 .projects-box{
@@ -797,15 +789,22 @@ mark.footer-mark{
         width:100%;
     }
     .main h2{
-        padding-bottom: 2rem;
+      margin-top: 30px;
+       font-size: 1.2em;
     }
     .main h1{
         font-size: 3em;
-        padding-bottom: 1rem;
+       
     }
     .main p{
         font-size: 1.2em;
-        padding-bottom: 1rem;
+       
+    }
+    .main #btnResume{
+       
+        padding: 8px 20px;
+        font-size:1.2em;
+        background-color: transparent;
     }
     .narrow{
         margin: 0 auto;
