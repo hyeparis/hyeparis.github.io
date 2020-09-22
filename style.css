@@ -95,10 +95,8 @@ body{
    
 
 }
-.mainPage{
-  
- }
-video{
+
+.mainVideo{
     object-fit: cover;
     z-index: -1;
     justify-content: center;
@@ -121,17 +119,13 @@ video{
     font-weight: bold;
    margin: 15px 0 15px 0;
     color:white;
-    
- 
 }
 
 .main h2{
     margin: 0;
     padding: 0;
     font-size: 1.5em;
-
     color:white;
-    
 }
 
 .main p{
