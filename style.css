@@ -194,10 +194,10 @@ img {
 
 
 .heading-underline2{
-    width: 3rem;
-    height: .2rem;
-    background-color: rgb(255, 238, 4);
-    margin: 0 auto 10rem;
+    width: 4rem;
+    height: .5rem;
+    background-color: lightslategray;
+    margin: 0 auto 50px;
   
 }
 .narrow h2{
@@ -458,7 +458,7 @@ img {
     background-size: 100% 100%;
 }
 #thirdWork{
-    background: url(img/project1-newLogo.png);
+    background: url(img/buddiesLogo.png);
     background-size: 100% 100%;
 }
 .myWork .overlay-text{
@@ -591,26 +591,38 @@ img {
 #project1-about {
   
     margin:50px;
+    text-align: center;
 }
 .project1-des{
-    font-style: italic;
-    border: .1rem rgb(38, 44, 100) solid;
-    border-radius: 0.5rem;
-    padding:10px;
+  
 }
 #project1-tool{
     padding: 0px 0px 50px 150px;
  
 }
-#project1-tool-img{
-    background: url(img/project1-logo.png);
+#project1-tool-img1{
+    background: url(img/project1_logo.png);
     background-size: 100% 100%;
-    padding: 150px 0 150px 0;
+    padding: 100px 0px 100px 0px;
+}
+#project1-tool-img2{
+    background: url(img/project1_logo2.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
+}
+#project1-tool-img3{
+    background: url(img/project1_logo3.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
 }
 #project1-features{
     padding: 0px 100px 50px 100px;
-}
 
+}
+#features-icon{
+    color:rgb(34, 43, 73);
+    padding-top : 10px;
+}
 .project1-screenshot{
     width: 100%;
     margin: 0 auto;
@@ -618,8 +630,9 @@ img {
 }
 
 .project1-screenshot h3{
-    padding-bottom: 30px;
+   
     padding-top : 50px;
+    text-align: center;
 }
 #bae1{
     
@@ -673,9 +686,9 @@ img {
     background-size: 100% 100%;
 }
 #btnSeeCode {
-    padding-left:70px;
-    padding-right:70px;
+    padding: 20px 70px 20px 70px;
     margin-bottom: 50px;
+    margin-top: 50px;
    
 }
 /*project2*/
@@ -691,11 +704,12 @@ img {
   /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
 }
 .project2-des{
+    /*
     font-style: italic;
     border: .1rem rgb(38, 44, 100) solid;
     border-radius: 0.5rem;
     padding:10px;
-
+*/
 }
 .project2-title{
     padding-top:50px;
@@ -706,16 +720,35 @@ img {
  
     margin:50px;
 }
-#project2-tool{
-    padding: 0px 0px 50px 150px;
-}
-#project2-tool-img{
-    background: url(img/project2-logo3.png);
+
+#project2-tool-img1{
+    background: url(img/project2_logo1.png);
     background-size: 100% 100%;
-    padding: 150px 0 150px 0;
+    padding: 100px 0px 100px 0px;
+}
+#project2-tool-img2{
+    background: url(img/project2_logo2.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
+}
+#project2-tool-img3{
+    background: url(img/project2_logo3.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
+}
+#project2-tool-img4{
+    background: url(img/project2_logo4.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
 }
 #project2-app{
-    padding: 0px 0px 10px 150px;
+    padding: 50px 0px 10px 150px;
+    
+}
+#project3-tool-img1{
+    background: url(img/project3_logo1.png);
+    background-size: 100% 100%;
+    padding: 100px 0px 100px 0px;
 }
 .heading-underline3{
     width: 3rem;
@@ -730,6 +763,83 @@ img {
     height: 700px;
     margin-bottom: 50px;
     
+}
+/* project 3 */
+.project3-submain{
+    background: url(img/buddyImage3.jpeg);
+    background-size: 100% 100%;
+    padding: 250px 0 250px 0;
+    width: 100%;
+    height:auto;
+  /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
+}
+#b1{
+   
+    min-height: 70vh;
+    background: url(img/buddies1.PNG);
+    background-size: 100% 100%;
+}
+#b2{
+   
+    min-height: 70vh;
+    background: url(img/buddies2.PNG);
+    background-size: 100% 100%;
+}
+#b3{
+   
+    min-height: 70vh;
+    background: url(img/buddies3.PNG);
+    background-size: 100% 100%;
+}
+#b4{
+   
+    min-height: 70vh;
+    background: url(img/buddies4.PNG);
+    background-size: 100% 100%;
+}
+#b5{
+   
+    min-height: 70vh;
+    background: url(img/buddies5.PNG);
+    background-size: 100% 100%;
+}
+#b6{
+   
+    min-height: 70vh;
+    background: url(img/buddies6.PNG);
+    background-size: 100% 100%;
+}
+#b7{
+   
+    min-height: 70vh;
+    background: url(img/buddies7.PNG);
+    background-size: 100% 100%;
+}
+#b9{
+   
+    min-height: 70vh;
+    background: url(img/buddies8.PNG);
+    background-size: 100% 100%;
+}
+#b10{
+    min-height: 70vh;
+    background: url(img/buddies9.PNG);
+    background-size: 100% 100%;
+}
+#b11{
+    min-height: 70vh;
+    background: url(img/buddies10.PNG);
+    background-size: 100% 100%;
+}
+#b12{
+    min-height: 70vh;
+    background: url(img/buddies11.PNG);
+    background-size: 100% 100%;
+}
+#b8{
+    min-height: 70vh;
+    background: url(img/buddies12.PNG);
+    background-size: 100% 100%;
 }
 /*footer*/
 footer{
@@ -842,6 +952,7 @@ mark.footer-mark{
     }
     .initial{
         font-size:3rem;
+       
     }
     .project1-title{
         font-size:0.5rem;
@@ -850,7 +961,7 @@ mark.footer-mark{
         padding-left:30px;
         padding-right:30px;
     }
-  
+   
     #project1-tool{
         padding: 30px 50px 30px 70px;
      
@@ -880,6 +991,18 @@ mark.footer-mark{
         height: 200px;
         margin: 30px;
     }
+    #features-icon{
+    
+        width: auto;
+        height: auto;        
+    }
+    #btnSeeCode {
+    padding: 15px 50px 15px 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   
+}
+
 }
   
 
