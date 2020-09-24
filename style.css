@@ -742,7 +742,8 @@ img {
     padding: 100px 0px 100px 0px;
 }
 #project2-app{
-    padding: 50px 0px 10px 150px;
+    text-align: center;
+    margin-top:70px;
     
 }
 #project3-tool-img1{
@@ -969,9 +970,7 @@ mark.footer-mark{
     #project2-tool{
         padding: 0px 50px 50px 50px;
     }
-    #project2-app{
-        padding: 0px 0px 10px 50px;
-    }
+   
     #project1-about {
 
         margin:20px;
@@ -989,7 +988,7 @@ mark.footer-mark{
     .project2Video{
         width: 300px;
         height: 200px;
-        margin: 30px;
+        
     }
     #features-icon{
     
