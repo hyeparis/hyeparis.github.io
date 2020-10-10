@@ -292,12 +292,12 @@ img {
 }
 .container-skill .card{
     position: relative;
-    width:250px;
+    width:175px;
     background: #21252b;
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 210px;
     border-radius: 4px;
     text-align: center;
     overflow: hidden;
@@ -313,8 +313,8 @@ img {
 }
 .percent{
     position: relative;
-    width: 150px;
-    height:150px;
+    width: 105px;
+    height:105px;
     border-radius: 50%;
     box-shadow: inset 0 0 50px #000;
   /*  background: #222;*/
@@ -378,40 +378,40 @@ svg circle {
     transform: translate(5px,5px);
 }
 svg circle:nth-child(2) {
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 308;
+    stroke-dashoffset: 308;
 }
 
 #circle1 svg circle:nth-child(2){
     stroke: #f8f9e9;
-    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke-dashoffset: calc(308 - (308 * 90) / 100);
 }
 #circle2 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke-dashoffset: calc(308 - (308 * 80) / 100);
     stroke: #f8512f;
 }
 #circle3 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke-dashoffset: calc(308 - (308 * 70) / 100);
     stroke: gold;
 }
 #circle4 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke-dashoffset: calc(308 - (308 * 60) / 100);
     stroke: skyblue;
 }
 #circle5 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke-dashoffset: calc(308 - (308 * 60) / 100);
     stroke: #15658a;
 }
 #circle6 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    stroke-dashoffset: calc(308 - (308 * 85) / 100);
     stroke: orange;
 }
 #circle7 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke-dashoffset: calc(308 - (308 * 60) / 100);
     stroke: purple;
 }
 #circle8 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke-dashoffset: calc(308 - (308 * 70) / 100);
     stroke: #3C873A;
 }
 #skills{
