@@ -788,7 +788,7 @@ svg circle:nth-child(2) {
 .project1-submain{
     background: url(img/bae2.png);
     background-size: auto 100%;
-    padding: 150px 0 150px 0;
+    padding: 150px 150px 150px 150px;
     width: 100%;
     height:auto;
   /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
@@ -801,6 +801,8 @@ svg circle:nth-child(2) {
 #project1-about {
   
     margin:50px;
+    padding-bottom:50px;
+    padding-top:50px;
     text-align: center;
 }
 .project1-des{
@@ -836,7 +838,7 @@ svg circle:nth-child(2) {
 .project1-screenshot{
     width: 100%;
     margin: 0 auto;
-    padding: 0px 100px 50px 100px;
+    padding: 50px 100px 50px 100px;
 }
 
 .project1-screenshot h3{
@@ -896,7 +898,8 @@ svg circle:nth-child(2) {
     background-size: 100% 100%;
 }
 #btnSeeCode {
-    padding: 20px 70px 20px 70px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
    
@@ -1208,7 +1211,7 @@ mark.footer-mark{
         height: auto;        
     }
     #btnSeeCode {
-    padding: 15px 50px 15px 50px;
+    padding: 7px 30px 7px 30px;
     margin-bottom: 30px;
     margin-top: 30px;
     }
