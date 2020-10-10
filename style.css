@@ -80,19 +80,19 @@ body{
     /**background: url(img/example3.jpg);*/
 
     /*background: #21a894*/;
-
+    background:#f8b133;
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
 }
 #leftHalf{
-      display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     object-fit: contain;
     margin:0;
-   
+    padding:0;
 
 }
 
@@ -105,93 +105,121 @@ body{
      bottom: 0;
      min-width: 100%;
     min-height: 100%;
+
+    /*index.html <video class="mainVideo" src='video/video-2.mp4' autoPlay loop muted></video> */
 }
 
 .leftAlignment{
-    padding:200px 0 50px 0;
+    padding:200px 150px 0 150px;
     
 }
 
 .main h1{
     margin: 0;
     padding: 0;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: bold;
-   margin: 15px 0 15px 0;
-    color:white;
+    bottom: 0;
+    color: 	#21252b;
+ 
 }
-
+#smallFont{
+    font-size: 1rem;
+}
 .main h2{
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
-    color:white;
+    font-size: 1.1em;
+    color:	#282c34;
+}
+.main h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    color:	#282c34;
 }
 
 .main p{
     margin:0;
     padding: 0;
-    font-size: 1.5em;
-    color:white;
+    font-size: 1em;
+    color:	#282c34;
 }
-mark.name{
+mark.num{
     display: inline-block;
     line-height: 0em;
-   color:gold;
+   color:#f8b133;
     padding-bottom: 0.5em;
     background-color: transparent;
+    font-size: 0.5em;
+}
+mark.num2{
+    display: inline-block;
+    line-height: 0em;
+   color:#f6f7f8;
+    padding-bottom: 0.5em;
+    background-color: transparent;
+    font-size: 0.5em;
 }
 .main #btnResume{
     margin-top: 2em;
-    
-    border-color: white;
-    
-  /*
-    animation: fadeIn; 
-    animation-duration: 8s;
-    */
-    color:  white;
+    margin-right: 10px;
+    border-color: #f6f7f8;
+    border-radius: 10px;
+    color:  #f6f7f8;
     margin-bottom: 10em;
-    padding: 12px 26px;
-    font-size:1.3em;
-    background-color: transparent;
+    padding: 10px 20px;
+    font-size:1em;
+    background-color:transparent;
 }
 .main #btnResume:hover{
-    border-color: gold;
-    color:  rgb(255, 255, 255);
-    background-color:  gold;
+    border-color:  #282c34;
+    color:  #282c34;
+    background-color:  transparent;
    
+}
+.main #btnProject{
+    margin-top: 2em;
+    
+    border-color: #282c34;
+    border-radius: 10px;
+    color: #f6f7f8;
+    margin-bottom: 10em;
+    padding: 10px 20px;
+    font-size:1em;
+    background-color:#282c34;
+}
+.main #btnProject:hover{
+    color: #f6f7f8;
+    border-color:#f6f7f8;
+    
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
     margin : 0 auto;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;    
-    
+  
+   
     
 }
  
+
 /*about me*/
 
 .about{
-
-
+    background-color: #21252b;
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
 }
+
 .narrow{
     width: 100%;
     margin: 0 auto;
-    padding: 100px 50px 150px 50px;
-    background: white;
-    
+    padding: 200px 150px 150px 150px;
+    color:#f6f7f8;
 }
-
-
 
 .heading-underline2{
     width: 4rem;
@@ -200,57 +228,196 @@ img {
     margin: 0 auto 50px;
   
 }
-.narrow h2{
-    color:black;
-
+.aboutImage{
+ 
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.aboutProfile{
+    background: #ffefd6;
+    padding: 100px;
+    border-radius: 50px;
+}
+#aboutIcon svg{
+    transition: 0.5s;
+}
+#aboutIcon svg:hover{
+    transform: translateY(-10px);
 }
 .aboutMe {
     background: rgb(49, 49, 49);
-    padding-top: 50px;
+    padding-top: 40px;
+    
 }
-/* circle
-.aboutMe h1{
-    width: 1em;
-    height: 1em;
-    box-sizing: initial;
-    font-size:2em;
-    background: #fff;
-    border: 0.1em solid rgb(255, 255, 255);
-   
-    text-align: center;
-    border-radius: 50%;    
-    margin: 0 auto;
-    line-height: 1em;
-    box-sizing: content-box;   
-    color: black;
-
-    margin-bottom: 3rem;
-}*/
+ .aboutMe svg{
+    transition: 0.5s;
+ }
+.aboutMe svg:hover{
+    transform: translateY(-10px);
+}
+#m-row{
+    margin-bottom: 150px;
+}
 .aboutMe p{
     padding-bottom: 3rem;
-    color:white;
     padding-left: 10px;
     padding-right: 10px;
    
 }
 .aboutMe h3{
-    padding-top: 5rem;
-    font-size: 1.3rem;
-    color:white;
+    padding: 30px;
+    font-size: 1rem;
 }
 #subject-text{
-    color: rgb(20, 20, 20);
-    font-size: 3em;
+
+    font-size: 2em;
     padding-bottom: 30px;
+ 
 }
 #about-description{
-    font-style: italic;
+
     padding-bottom: 20px;
+}
+/*circle skills*/
+.container-skill{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-top:50px;
+}
+.card{
+    background: #21252b;
+}
+.container-skill .card{
+    position: relative;
+    width:250px;
+    background: #21252b;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container-skill .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.5);
+}
+.container-skill .card:before{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.5);
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+  /*  background: #222;*/
+    z-index: 1000;
+}
+.percent .number{
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.card:hover .percent .number h2{
+    color: #fff;
+    font-size: 40px;
+}
+.percent .number h2{
+    color: #777;
+    font-weight: 700;
+    font-size:30px;
+    transition: 0.5s;
+}
+.percent .number h2 span{
+    font-size:24px;
+    color:#777;
+    transition: 0.5s;
+}
+.skill-text{
+    position: relative;
+    margin-top:20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition:0.5s;
+    font-size: 1em;
+    color:#777;
+}
+.card:hover .skill-text{
+    color:	#f6f7f8;
+}
+.card:hover .percent .number h2 span{
+    color:	#f6f7f8;
+
+}
+.circleSvg{
+    position: relative;
+    width:150px;
+    height: 150px;
+    z-index: 1000;
+}
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+#circle1 svg circle:nth-child(2){
+    stroke: #f8f9e9;
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+}
+#circle2 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: #f8512f;
+}
+#circle3 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: gold;
+}
+#circle4 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: skyblue;
+}
+#circle5 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke: #15658a;
+}
+#circle6 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    stroke: orange;
+}
+#circle7 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke: purple;
+}
+#circle8 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #3C873A;
 }
 #skills{
     width: 500px;
     margin: 30px auto;
-    color: rgb(42, 42, 42);
+
     padding-left:70px;
     padding-right:70px;
 }
@@ -263,7 +430,7 @@ img {
     font-size: 1rem;
 }
 #title-skill{
-    padding-top: 30px;
+    padding-top: 80px;
     font-weight: 700;
 
 }
@@ -274,14 +441,14 @@ img {
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px #ccb801b3;
+    box-shadow: 0 0 10px #f8b133;
     color:white;
 
 }
 .bar span{
     height:20px;
     float:left;
-    background: #ffe600;
+    background: #f8b133;
 
 }
 .html{
@@ -428,16 +595,18 @@ img {
 }
 .projects-box{
 
-    background: rgb(255, 217, 0);
+   
+
+    background: #21252b;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 50px 150px 50px;
+    padding: 100px 150px 150px 150px;
     
 
 }
 #subject-text2{
-    color: rgb(243, 243, 243);
-    font-size: 3em;
+    color:#f6f7f8;
+    font-size: 2em;
     padding-bottom: 5rem;
 }
 .myWork {
@@ -512,29 +681,70 @@ img {
 /*Contact me*/
 .contact{
     overflow: hidden;
-
     width: 100%;
     margin: 0 auto; 
     
 }
+.contact-icon{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin-top:50px;
+    background-color: 	#282c34;
+    height: 100px;
+    border-radius:50%;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+.contact-icon:hover{
+    transform: translateY(-10px);
+  
+}
 .contact-box{
 
-    background: rgb(50, 78, 97);
+    background: 	#f8b133;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 50px 100px 50px;
+    padding: 130px 150px 200px 150px;
+    color:	#282c34;
+ 
+   
 
 }
+
 .contact-box p{
-    color: rgb(248, 248, 248);
-    font-style: italic;
-    padding-bottom: 30px;
+    
 }
 
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+  
+}
+#m-row{
+    margin-bottom: 150px;
+}
+.contactMe p{
+    padding-bottom: 3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.contactMe h3{
+    padding: 30px;
+    font-size: 1rem;
+}
 #subject-text3{
-    color: rgb(248, 248, 248);
-    font-size: 3em;
+    font-size: 2em;
     padding-bottom: 30px;
+    color:	#282c34;
 }
 #btnSend{
     float: right;
@@ -752,12 +962,19 @@ img {
     padding: 100px 0px 100px 0px;
 }
 .heading-underline3{
+    width: 4rem;
+    height: .2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:		#21252b;
+}
+.heading-underline4{
     width: 3rem;
     height: .2rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     background-color:gold;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
-  
 }
 .project2Video{
     width: 900px;
@@ -845,7 +1062,7 @@ img {
 /*footer*/
 footer{
     overflow: hidden;
-    background:rgb(53, 53, 53);
+    background:#21252b;
     padding: 15px 0 0px 0;
     color:white;
 }
@@ -854,7 +1071,7 @@ footer p{
     padding-right: 10px;
 }
 mark.footer-mark{
-    color: rgb(255, 238, 4);
+    color: #f8b133;
     background: none;
 }
 .isVisible{
@@ -887,7 +1104,7 @@ mark.footer-mark{
     }
     .leftAlignment{
       margin:0 auto;
-     padding:120px 0 0 0;
+     padding:120px 50px 0 50px;
      text-align:  center;
     }
     .main{
@@ -905,12 +1122,7 @@ mark.footer-mark{
         font-size: 1.2em;
        
     }
-    .main #btnResume{
-       
-        padding: 8px 20px;
-        font-size:1.2em;
-        background-color: transparent;
-    }
+  
     .narrow{
         margin: 0 auto;
     }
@@ -999,9 +1211,21 @@ mark.footer-mark{
     padding: 15px 50px 15px 50px;
     margin-bottom: 30px;
     margin-top: 30px;
-   
-}
-
+    }
+    .heading-underline3{
+        width:3rem;
+        margin: 20px auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+ 
+    #aboutIcon{
+        display: none;
+    }
+    #aboutImage{
+        display:none;
+    }
 }
   
 

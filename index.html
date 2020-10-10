@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Hyewon Joo Portfolio</title>
     </head>
     <body>
@@ -41,114 +42,223 @@
     <section class="main">
             <div class="row mainPage">
                      
-                <div class="col-md-12 text-center" id="leftHalf"  data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                    <video class="mainVideo" src='video/video-2.mp4' autoPlay loop muted></video>
+                <div class="col-md-12 text-left" id="leftHalf"  data-aos="fade-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                    
                     <div class="leftAlignment"  data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                      
-                    <h2>Hello,</h2>
-                    <h1>I'M<mark class="name">HAILEY</mark></h1>
-                    <p>An enthusiastic software developer</p>
+                    <h2>Hello, I'm</h2>
+                    
+                    <h1>HAILEY JOO,</h1>
+                
+                    <h3>Software Developer.</h3>
+                    <div class="heading-underline3"></div>
+                    <p id="smallFont">I am a software developer with experience
+                        in web development and mobile development,<br>
+                        and enjoying creating applications that improves our lives. I love what I do!</p>
                     <button type="button" class="btn btn-success" id="btnResume" onclick="window.open('pdf/Hyewon(Hailey)Joo-Resume.pdf','_blank')">See Resume</button>
+                    <button type="button" class="btn btn-success" id="btnProject" onclick="window.location='#projects-page'">My Proejcts</button>
                 </div>
                 </div>
              
 
         </div>
     </section>
+    
     <section class="about" id="about-page" >
                 <div class="narrow">
-                    <div class="col-12" data-aos="fade-in">
-                        <h2 class="heading text-center" id="subject-text" >About me</h2>
-                    </div>
-                    <div class="col-12" data-aos="fade-in">
-                        <p class="heading text-center" id="about-description" >I am a fresh graduate of Computer and Information Systems from Douglas College.<br>
-                            Being ambitious to learn new things, improve my skills and achieve success as a part of a team. </p>
-                    </div>
-                  
-                    <div class="row text-center" >
-                        <div class="col-md-4" >
-                            <div class="aboutMe"  data-aos="fade-up">
-                           
-                                <svg class="bi bi-lightning" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="yellow" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z"/>
-                                  </svg>
-                               <h3>Detail-oriented & Passionate</h3>
-                               <p>Attention to detail, analytical, Insightful, fast, and hard-working</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="aboutMe" data-aos="fade-up">
-                              
-                                <svg class="bi bi-phone" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="yellow" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                                    <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                                  </svg>
-                                 
-                               <h3>Mobile Development</h3>
-                               <p>Experience in android mobile development in JAVA </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="aboutMe" data-aos="fade-up">
-                           
-                                <svg class="bi bi-laptop" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="yellow" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
-                                    <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
-                                  </svg>
-                               <h3>Web Development</h3>
-                               <p>HTML, CSS, Bootstrap, JS, MySQL, PHP, node.js, C#, JAVA, jQuery, React</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 text-center" id="title-skill" data-aos="fade-up">
-                            <h2>My Skills</h2>
-                    </div>
-                    <div class="row" data-aos="fade-up">
-                        <div class="col-md-6  justify-content-center text-left"  id="skills">
-                           
-                            <li>
-                            <h3>HTML</h3><span class="bar"><span class="html"></span><h3 class="perc1">&nbsp;&nbsp;90%</h3></span>
-                            </li>
-                            <li>
-                                <h3>CSS</h3><span class="bar"><span class="css"></span><h3 class="perc2">&nbsp;&nbsp;80%</h3></span>
-                            </li>
-                            <li>
-                                <h3>React JS</h3><span class="bar"><span class="react"></span><h3 class="perc2">&nbsp;&nbsp;70%</h3></span>
-                            </li>
-                            <li>
-                                <h3>JavaScript</h3><span class="bar"><span class="js"></span><h3 class="perc2">&nbsp;&nbsp;60%</h3></span>
-                            </li>
-                            <li>
-                                <h3>Bootstrap</h3><span class="bar"><span class="bootstrap"></span><h3 class="perc2">&nbsp;&nbsp;70%</h3></span>
-                            </li>
-                        </div>
-                        <div class="col-md-6  justify-content-center text-left"  id="skills">
-                            <li>
-                            <h3>JAVA</h3><span class="bar"><span class="java"></span><h3 class="perc1">&nbsp;&nbsp;90%</h3></span>
-                            </li>
-                            <li>
-                                <h3>PHP</h3><span class="bar"><span class="php"></span><h3 class="perc2">&nbsp;&nbsp;70%</h3></span>
-                            </li>
-                            <li>
-                                <h3>Node.js</h3><span class="bar"><span class="node"></span><h3 class="perc2">&nbsp;&nbsp;60%</h3></span>
-                            </li>
-                            <li>
-                                <h3>MySQL</h3><span class="bar"><span class="mysql"></span><h3 class="perc2">&nbsp;&nbsp;80%</h3></span>
-                            </li>
-                            <li>
-                                <h3>MongoDB</h3><span class="bar"><span class="mongoDB"></span><h3 class="perc2">&nbsp;&nbsp;60%</h3></span>
-                            </li>
+                    <div class="row" id="m-row" >
+                    <div class="col-md-6">
+                        <h2 class="heading" id="subject-text" data-aos="fade-in"><mark class="num">01. </mark>About Me</h2>
+                        <p class="heading" id="about-description" data-aos="fade-in">
+                            I am a fresh graduate of Computer and Information Systems from Douglas College 
+                            who enjoys creating applications that improves our lives.
+                            I am passionate about learning new things that helps me to do better work.
+                            This passion always leads me to keep motivated and develop myself.
+                            <br/> <br/>
+                            Here's five adjectives that describe Me: <br/>
                             
+                            &#9657; Detail-oriented <br/> &#9657; Dynamic <br/>
+                            &#9657; Flexible &#9; <br />&#9657; Fast <br />
+                            &#9657; Hard-working
+                        </p>
+                    </div>
+                    <div class="col-md-6 justify-content-center text-center" id="aboutIcon">
+                           <svg width="15em" height="15em" viewBox="0 0 16 16" class="bi bi-chat-quote-fill" fill="#282c34" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM7.194 6.766c.087.124.163.26.227.401.428.948.393 2.377-.942 3.706a.446.446 0 0 1-.612.01.405.405 0 0 1-.011-.59c.419-.416.672-.831.809-1.22-.269.165-.588.26-.93.26C4.775 9.333 4 8.587 4 7.667 4 6.747 4.776 6 5.734 6c.271 0 .528.06.756.166l.008.004c.169.07.327.182.469.324.085.083.161.174.227.272zM11 9.073c-.269.165-.588.26-.93.26-.958 0-1.735-.746-1.735-1.666 0-.92.777-1.667 1.734-1.667.271 0 .528.06.756.166l.008.004c.17.07.327.182.469.324.085.083.161.174.227.272.087.124.164.26.228.401.428.948.392 2.377-.942 3.706a.446.446 0 0 1-.613.01.405.405 0 0 1-.011-.59c.42-.416.672-.831.81-1.22z"/>
+                          </svg>
+                    </div>
+                </div>
+                <div class="row" >
+                <div class="col-md-5" id= "aboutImage">
+                    <img src="img/languages.png" />
+                </div>
+                    <div class="col-md-6">
+                        <h2 class="heading" id="subject-text" data-aos="fade-in"><mark class="num">02. </mark>What are my strengths?</h2>
+                        <p class="heading" id="about-description" data-aos="fade-in">
+                           I have a good knowledge of multiple programming languages
+                            gained through my previous education 
+                            plus my experience of creating software development projects 
+                             and android applications for real clients.
+                            <br/> <br/>
+                           
+                        </p>
+                        <div class="row text-center" >
+                            
+                            <div class="col-md-6">
+                                <div class="aboutMe" data-aos="fade-up">
+                                  
+                                    <svg class="bi bi-phone" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="#f8b133" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                        <path fill-rule="evenodd" d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                      </svg>
+                                   <h3>Mobile Development</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aboutMe" data-aos="fade-up">
+                                    <svg class="bi bi-laptop" width="2.5em" height="2.5em" viewBox="0 0 16 16" fill="#f8b133" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+                                        <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+                                      </svg>
+                                   <h3>Web Development</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
-        </div>
+                    
+                </div>
+                
+                        <div class="container-skill" data-aos="fade-up">
+                            <div class="row text-center justify-content-center">
+                            <div class="card" id="circle1">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>90<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">HTML</h2>
+                                </div>
+                            </div>
+                            <div class="card" id="circle2">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>80<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">CSS</h2>
+                                </div>
+                            </div>
+                            <div class="card" id="circle3">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>70<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">JavaScript</h2>
+                                </div>
+                            </div>
+                            <div class="card" id="circle4">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>60<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">React</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row text-center justify-content-center">
+                            <div class="card" id="circle5">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>50<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">C++ / C#</h2>
+                                </div>
+                            </div>
+                            <div class="card"  id="circle6">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg">
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>85<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">Java</h2>
+                                </div>
+                            </div>
+                            <div class="card" id="circle7">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg" >
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>50<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">PHP</h2>
+                                </div>
+                            </div>
+                            <div class="card" id="circle8">
+                                <div class="box">
+                                    <div class="percent">
+                                        <svg class="circleSvg" >
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                            <circle cx="70" cy="70" r="70"></circle>
+                                        </svg>
+                                        <div class="number">
+                                            <h2>70<span>%</span></h2>
+                                        </div>
+                                    </div>
+                                    <h2 class="skill-text">Node.js</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+               
+
         
     </section>
     <section class="projects" id="projects-page" >
         <div class="projects-box" >
             <div class="row" >
                 <div class="col-12">
-                <h2 class="heading text-center" id="subject-text2">Projects</h2>
+                    <h2 class="heading" id="subject-text2" data-aos="fade-in"><mark class="num">03. </mark>Projects</h2>
               </div>
           </div>
             <div class="row text-center" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -177,21 +287,52 @@
    <section class="contact" id="contact-page">
       <div class="contact-box">
         <div class="row">
-            <div class="col-12">
-            <h2 class="heading text-center" id="subject-text3">Contact me</h2>
+            <div class="col-md-12">
+                <h2 class="heading" id="subject-text3" data-aos="fade-in"><mark class="num2">04. </mark>Contact Me</h2>
           </div>
+          <div class="col-md-8 text-left"  data-aos="fade-in">
+       
+          <p>I am looking forward to new opportunities that is right for me.<br>
+              Please get in touch with me if you have any request or questions about me. </p>
+              
+              
       </div>
-      <div class="col-md-12 text-center">
-        <p>Looking forward to an opportunity that suits me!<br>
-            Please get in touch with me if you have any request or questions about me. </p>
-            <P><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-              </svg> <a href="mailto:jjubob93@gmail.com">haileyjjoo@gmail.com</a></P>
-            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M3.925 1.745a.636.636 0 0 0-.951-.059l-.97.97c-.453.453-.62 1.095-.421 1.658A16.47 16.47 0 0 0 5.49 10.51a16.471 16.471 0 0 0 6.196 3.907c.563.198 1.205.032 1.658-.421l.97-.97a.636.636 0 0 0-.06-.951l-2.162-1.682a.636.636 0 0 0-.544-.115l-2.052.513a1.636 1.636 0 0 1-1.554-.43L5.64 8.058a1.636 1.636 0 0 1-.43-1.554l.513-2.052a.636.636 0 0 0-.115-.544L3.925 1.745zM2.267.98a1.636 1.636 0 0 1 2.448.153l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-              </svg><a href="tel:778-512-5016">778-512-5016</a></p>
-            
+          
+      </div>
+
+
+
+      <div class="row text-center justify-content-center" >
+                            
+        <div class="col-md-4">
+            <div class="contactMe" data-aos="fade-up">
+                <div class="contact-icon" id="icon-call">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                  </svg>
+                  </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="contactMe" data-aos="fade-up">
+                <div class="contact-icon" id="icon-email">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+                  </svg>
+             
+            </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="contactMe" data-aos="fade-up">
+                <div class="contact-icon" id="icon-linkedin">
+                <i class="fa fa-linkedin-square" style="font-size:2em;color:	white"></i>
+               </div>
+               
+            </div>
+        </div>
     </div>
+    
       </div>
    </section>
         
@@ -204,6 +345,17 @@
     AOS.init({
         duration: 2000,
     });
+  </script>
+  <script>
+      document.querySelector('#icon-email').addEventListener('click', function(){
+        window.location="mailto:haileyjjoo@gmail.com";
+      });
+        document.querySelector('#icon-call').addEventListener('click', function(){
+            window.open('tel:7785125016');
+      });
+         document.querySelector('#icon-linkedin').addEventListener('click', function(){
+            window.location.href = "https://www.linkedin.com/in/hyewon-joo-124a41188/";
+      });
   </script>
   <script>
     $(window).scroll(function(){
