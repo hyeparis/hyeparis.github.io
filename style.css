@@ -835,6 +835,10 @@ svg circle:nth-child(2) {
     color:rgb(34, 43, 73);
     padding-top : 10px;
 }
+#features-icon{
+    color:#f6f7f8;
+    padding-top : 10px;
+}
 .project1-screenshot{
     width: 100%;
     margin: 0 auto;
@@ -923,6 +927,10 @@ svg circle:nth-child(2) {
     border-radius: 0.5rem;
     padding:10px;
 */
+}
+.project2-box{
+    background: #282c34;
+    color:#f6f7f8;
 }
 .project2-title{
     padding-top:50px;
