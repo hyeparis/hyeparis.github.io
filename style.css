@@ -399,7 +399,7 @@ svg circle:nth-child(2) {
     stroke: skyblue;
 }
 #circle5 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
     stroke: #15658a;
 }
 #circle6 svg circle:nth-child(2){
@@ -407,7 +407,7 @@ svg circle:nth-child(2) {
     stroke: orange;
 }
 #circle7 svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
     stroke: purple;
 }
 #circle8 svg circle:nth-child(2){
