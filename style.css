@@ -333,16 +333,16 @@ img {
 }
 .card:hover .percent .number h2{
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
 }
 .percent .number h2{
     color: #777;
     font-weight: 700;
-    font-size:30px;
+    font-size:23px;
     transition: 0.5s;
 }
 .percent .number h2 span{
-    font-size:24px;
+    font-size:16px;
     color:#777;
     transition: 0.5s;
 }
