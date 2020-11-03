@@ -77,10 +77,11 @@ body{
 
 .main{
     position: relative;
-    /**background: url(img/example3.jpg);*/
-
-    /*background: #21a894*/;
-    background:#f8b133;
+    /*
+    background: url(img/sky-image.jpg);
+    background-size: 100% 100%;
+*/
+    background:#21252b;
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
@@ -117,10 +118,10 @@ body{
 .main h1{
     margin: 0;
     padding: 0;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     bottom: 0;
-    color: 	#21252b;
+    color: 	#f6f7f8;
  
 }
 #smallFont{
@@ -130,20 +131,21 @@ body{
     margin: 0;
     padding: 0;
     font-size: 1.1em;
-    color:	#282c34;
+    color:	#f6f7f8;
 }
 .main h3{
     margin: 0;
+    margin-bottom:20px;
     padding: 0;
-    font-size: 2em;
-    color:	#282c34;
+    font-size: 3em;
+    color:	#f6f7f8;
 }
 
 .main p{
     margin:0;
     padding: 0;
     font-size: 1em;
-    color:	#282c34;
+    color:	#f6f7f8;
 }
 mark.num{
     display: inline-block;
@@ -173,25 +175,27 @@ mark.num2{
     background-color:transparent;
 }
 .main #btnResume:hover{
-    border-color:  #282c34;
+    border-color:  #f6f7f8;
     color:  #282c34;
-    background-color:  transparent;
+    background-color: #f6f7f8;
    
 }
 .main #btnProject{
     margin-top: 2em;
     
-    border-color: #282c34;
+    border-color: #f6f7f8;
     border-radius: 10px;
-    color: #f6f7f8;
+    color: #282c34;
     margin-bottom: 10em;
     padding: 10px 20px;
     font-size:1em;
-    background-color:#282c34;
+    background-color:#f6f7f8;
 }
 .main #btnProject:hover{
-    color: #f6f7f8;
-    border-color:#f6f7f8;
+ 
+    border-color:#111214;
+    color:  #f6f7f8;
+    background-color: transparent;
     
 }
 
@@ -984,9 +988,9 @@ svg circle:nth-child(2) {
 .heading-underline3{
     width: 4rem;
     height: .2rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color:		#21252b;
+    margin-top: 30px;
+
+    background-color:	#f6f7f8;
 }
 .heading-underline4{
     width: 3rem;
