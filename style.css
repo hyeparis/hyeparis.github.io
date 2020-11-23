@@ -538,6 +538,7 @@ svg circle:nth-child(2) {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    border-radius: 10px;
   }
   
   /* Change background color of buttons on hover */
