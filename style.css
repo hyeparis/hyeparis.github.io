@@ -11,11 +11,12 @@ html{
     margin: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+   
     height: 100%;
     width: 100%;
     margin: 0;
-  
+    font-family: 'Quicksand', sans-serif;
+   
 
 }
 
@@ -81,7 +82,7 @@ body{
     background: url(img/sky-image.jpg);
     background-size: 100% 100%;
 */
-    background:#21252b;
+    background:#f8f8f8;
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
@@ -97,6 +98,7 @@ body{
 
 }
 
+
 .mainVideo{
     object-fit: cover;
     z-index: -1;
@@ -111,8 +113,18 @@ body{
 }
 
 .leftAlignment{
-    padding:200px 150px 0 150px;
+    padding:250px 200px 0 200px;
     
+}
+
+
+.mainCircle{
+    background-color: 	#FFE01B;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+  
+    position: relative;
 }
 
 .main h1{
@@ -121,9 +133,11 @@ body{
     font-size: 3em;
     font-weight: bold;
     bottom: 0;
-    color: 	#f6f7f8;
+    color: 	#241C15;
+    
  
 }
+
 #smallFont{
     font-size: 1rem;
 }
@@ -131,26 +145,26 @@ body{
     margin: 0;
     padding: 0;
     font-size: 1.1em;
-    color:	#f6f7f8;
+    color:	#FFE01B;
 }
 .main h3{
     margin: 0;
     margin-bottom:20px;
     padding: 0;
     font-size: 3em;
-    color:	#f6f7f8;
+    color:	#FFE01B;
 }
 
 .main p{
     margin:0;
     padding: 0;
     font-size: 1em;
-    color:	#f6f7f8;
+    color:	#241C15;
 }
 mark.num{
     display: inline-block;
     line-height: 0em;
-   color:#f8b133;
+   color:#FFE01B;
     padding-bottom: 0.5em;
     background-color: transparent;
     font-size: 0.5em;
@@ -166,36 +180,36 @@ mark.num2{
 .main #btnResume{
     margin-top: 2em;
     margin-right: 10px;
-    border-color: #f6f7f8;
-    border-radius: 10px;
-    color:  #f6f7f8;
+    border-color: #FFE01B;
+    border-radius: 5px;
+    color:  #241C15;
     margin-bottom: 10em;
     padding: 10px 20px;
     font-size:1em;
-    background-color:transparent;
+    background-color:#FFE01B;
 }
 .main #btnResume:hover{
-    border-color:  #f6f7f8;
-    color:  #282c34;
-    background-color: #f6f7f8;
+    border-color:  #ffca1b;
+    color: #f6f7f8;
+    background-color:  #ffca1b;
    
 }
 .main #btnProject{
     margin-top: 2em;
     
-    border-color: #f6f7f8;
-    border-radius: 10px;
-    color: #282c34;
+    border-color: #241C15;
+    border-radius: 5px;
+    color: #f6f7f8;
     margin-bottom: 10em;
     padding: 10px 20px;
     font-size:1em;
-    background-color:#f6f7f8;
+    background-color:#241C15;
 }
 .main #btnProject:hover{
  
-    border-color:#111214;
-    color:  #f6f7f8;
-    background-color: transparent;
+    border-color: #1d1611;
+    color:  #FFE01B;
+    background-color: #1d1611;
     
 }
 
@@ -212,7 +226,7 @@ img {
 /*about me*/
 
 .about{
-    background-color: #21252b;
+    background-color: #f8f8f8;
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
@@ -221,10 +235,13 @@ img {
 .narrow{
     width: 100%;
     margin: 0 auto;
-    padding: 200px 150px 150px 150px;
-    color:#f6f7f8;
+    padding: 150px 150px 100px 150px;
+    color:#241C15;
 }
+.narrow2{
+    padding: 75px 50px 75px 50px;
 
+}
 .heading-underline2{
     width: 4rem;
     height: .5rem;
@@ -243,19 +260,26 @@ img {
     padding: 100px;
     border-radius: 50px;
 }
+#aboutIcon{
+   
+}
 #aboutIcon svg{
     transition: 0.5s;
+    
 }
 #aboutIcon svg:hover{
     transform: translateY(-10px);
 }
 .aboutMe {
-    background: rgb(49, 49, 49);
-    padding-top: 40px;
+  
+ 
     
 }
  .aboutMe svg{
     transition: 0.5s;
+    background-color: #FFE01B;
+    border-radius: 50%;
+    padding: 10px;
  }
 .aboutMe svg:hover{
     transform: translateY(-10px);
@@ -264,25 +288,53 @@ img {
     margin-bottom: 150px;
 }
 .aboutMe p{
-    padding-bottom: 3rem;
+
     padding-left: 10px;
     padding-right: 10px;
-   
+
 }
 .aboutMe h3{
     padding: 30px;
     font-size: 1rem;
+    font-weight: bold;
 }
 #subject-text{
 
-    font-size: 2em;
+    font-size: 2.5em;
     padding-bottom: 30px;
- 
+    
 }
 #about-description{
 
     padding-bottom: 20px;
 }
+
+/* Container for skill bars */
+.mySkill {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding:3px;
+    color: white; /* White text color */
+    border-radius: 10px;
+    
+  }
+  
+  .html {width: 90%; background-color: #FFE01B;} 
+  .css {width: 80%; background-color: #FFE01B;} 
+  .js {width: 70%; background-color:#FFE01B;} 
+  .react {width: 60%; background-color: #FFE01B;} 
+  .photoshop {width: 60%; background-color: #FFE01B;} 
+  .c {width: 60%; background-color: #FFE01B;} 
+  .java {width: 85%; background-color:#FFE01B;} 
+  .php {width: 60%; background-color: #FFE01B;} 
+  .node {width: 70%; background-color: #FFE01B;} 
+  .sql {width: 80%; background-color: #FFE01B;} 
+
 /*circle skills*/
 .container-skill{
     display: flex;
@@ -297,7 +349,7 @@ img {
 .container-skill .card{
     position: relative;
     width:175px;
-    background: #21252b;
+    background: transparent;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -438,150 +490,7 @@ svg circle:nth-child(2) {
     font-weight: 700;
 
 }
-.bar{
-    background: #353b48;
-    display: block;
-    height: 20px;
-    border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 3px;
-    overflow: hidden;
-    box-shadow: 0 0 10px #f8b133;
-    color:white;
 
-}
-.bar span{
-    height:20px;
-    float:left;
-    background: #f8b133;
-
-}
-.html{
-    width: 90%;
-    animation: html 2s;
-
-
-}
-.css{
-    width: 80%;
-    animation: css 2s;
-
-}
-.php{
-    width: 70%;
-    animation: php 2s;
-}
-.react{
-    width: 70%;
-    animation: react 2s;
-
-}
-.mongoDB{
-    width: 60%;
-    animation: mongoDB 2s;
-
-}
-.js{
-    width: 60%;
-    animation: js 2s;
-}
-.bootstrap{
-    width: 70%;
-    animation: bootstrap 2s;
-}
-.java{
-    width: 90%;
-    animation: java 2s;
-}
-.mysql{
-    width: 80%;
-    animation: mysql 2s;
-}
-.node{
-    width: 60%;
-    animation: node 2s;
-}
-
-@keyframes html{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-@keyframes react{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-@keyframes mongoDB{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-@keyframes css{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 80%;
-    }
-}
-@keyframes php{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-@keyframes js{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-@keyframes node{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-@keyframes bootstrap{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-@keyframes java{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-@keyframes mysql{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 80%;
-    }
-}
 .perc1{
     text-align: left;
 }
@@ -594,25 +503,61 @@ svg circle:nth-child(2) {
     overflow: hidden;
     width: 100%;
     margin: 0 auto; 
-
+    background-color: #f8f8f8;
     
 }
 .projects-box{
 
    
-
-    background: #21252b;
     width: 100%;
     margin: 0 auto;
-    padding: 100px 150px 150px 150px;
+    padding: 50px 150px 150px 150px;
     
 
 }
 #subject-text2{
-    color:#f6f7f8;
+  
     font-size: 2em;
     padding-bottom: 5rem;
 }
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:30px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+   background-color:#FFE01B;
+ 
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+   background-color: #FFE01B;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px;
+  
+    border-top: none;
+  }
 .myWork {
     padding-top: 50px;
     min-height: 50vh;
@@ -620,6 +565,7 @@ svg circle:nth-child(2) {
     box-shadow: 5px 5px 15px #000;
     margin-bottom: 2rem;
     cursor: pointer;
+    border-radius: 10px;
     
 }
 .project-sub{
@@ -655,6 +601,7 @@ svg circle:nth-child(2) {
     top: 0;
     left: 0;
     transition: all 0.6s ease 0s;
+    border-radius: 10px;
 }
 .myWork .overlay-text:after{
     border-left: 1px solid rgba(255,255,255,0.9);
@@ -676,6 +623,7 @@ svg circle:nth-child(2) {
 }
 .myWork:hover{
     transform:translateY(-8px);
+    border-radius: 10px;
 }
 .myWork:hover .overlay-text{
     opacity: 1;
@@ -703,11 +651,11 @@ svg circle:nth-child(2) {
    justify-content: center;
    text-align: center;
    align-items: center;
-   margin-top:50px;
-    background-color: 	#282c34;
-    height: 100px;
-    border-radius:50%;
-    width: 100px;
+   margin-top:20px;
+   background-color: 	 #FFE01B;
+    height: 75px;
+    border-radius:20px;
+    width: 75px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -718,18 +666,14 @@ svg circle:nth-child(2) {
 }
 .contact-box{
 
-    background: 	#f8b133;
+    background: #f8f8f8;
     width: 100%;
     margin: 0 auto;
-    padding: 130px 150px 200px 150px;
+    padding: 50px 150px 300px 150px;
     color:	#282c34;
  
    
 
-}
-
-.contact-box p{
-    
 }
 
 
@@ -1086,16 +1030,16 @@ svg circle:nth-child(2) {
 /*footer*/
 footer{
     overflow: hidden;
-    background:#21252b;
+    background:#403B3B;
     padding: 15px 0 0px 0;
-    color:white;
+    color:#f8f8f8;
 }
 footer p{
     padding-left: 10px;
     padding-right: 10px;
 }
 mark.footer-mark{
-    color: #f8b133;
+    color: #f8f8f8;
     background: none;
 }
 .isVisible{
@@ -1139,14 +1083,17 @@ mark.footer-mark{
        font-size: 1.2em;
     }
     .main h1{
-        font-size: 3em;
+        font-size: 2.3em;
        
     }
-    .main p{
-        font-size: 1.2em;
+    .main h3{
+        font-size: 2.3em;
        
     }
-  
+    #smallFont{
+        font-size: 0.9rem;
+    }
+    
     .narrow{
         margin: 0 auto;
     }
@@ -1198,7 +1145,12 @@ mark.footer-mark{
         padding-left:30px;
         padding-right:30px;
     }
-   
+    .tab {
+      
+        padding: 10px 12px;
+        font-size:0.7em;
+       
+      }
     #project1-tool{
         padding: 30px 50px 30px 70px;
      
