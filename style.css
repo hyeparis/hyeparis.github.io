@@ -260,9 +260,7 @@ img {
     padding: 100px;
     border-radius: 50px;
 }
-#aboutIcon{
-   
-}
+
 #aboutIcon svg{
     transition: 0.5s;
     
@@ -270,11 +268,7 @@ img {
 #aboutIcon svg:hover{
     transform: translateY(-10px);
 }
-.aboutMe {
-  
- 
-    
-}
+
  .aboutMe svg{
     transition: 0.5s;
     background-color: #FFE01B;
@@ -300,6 +294,12 @@ img {
 }
 #subject-text{
 
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    
+}
+#subject-text3{
+    padding-top:30px;
     font-size: 2.5em;
     padding-bottom: 30px;
     
@@ -508,17 +508,32 @@ svg circle:nth-child(2) {
 }
 .projects-box{
 
-   
     width: 100%;
     margin: 0 auto;
     padding: 50px 150px 150px 150px;
-    
 
 }
+.logoimage{
+    height:30vh;
+    width: auto;
+}
+.feature-detail{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.feature-title{
+    font-size:1.2em;
+    font-weight: bold;
+    padding-bottom:15px;
+}
 #subject-text2{
-  
+    
     font-size: 2em;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+}
+.screenshot1{
+    max-height: 60vh;
 }
 /* Style the tab */
 .tab {
@@ -738,132 +753,39 @@ svg circle:nth-child(2) {
     overflow:hidden;
   
 }
-.project1-logo{
-    margin: 0 auto;
-    padding-left:150px;
-    float:left;
-}
-.project1-submain{
-    background: url(img/bae2.png);
-    background-size: auto 100%;
-    padding: 150px 150px 150px 150px;
-    width: 100%;
-    height:auto;
-  /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
-}
-.project1-title{
-    padding-top:50px;
-    color:rgb(255, 255, 255);
-    
-}
-#project1-about {
-  
-    margin:50px;
-    padding-bottom:50px;
-    padding-top:50px;
-    text-align: center;
-}
-.project1-des{
-  
-}
-#project1-tool{
-    padding: 0px 0px 50px 150px;
- 
-}
-#project1-tool-img1{
-    background: url(img/project1_logo.png);
-    background-size: 100% 100%;
-    padding: 100px 0px 100px 0px;
-}
-#project1-tool-img2{
-    background: url(img/project1_logo2.png);
-    background-size: 100% 100%;
-    padding: 100px 0px 100px 0px;
-}
-#project1-tool-img3{
-    background: url(img/project1_logo3.png);
-    background-size: 100% 100%;
-    padding: 100px 0px 100px 0px;
-}
-#project1-features{
-    padding: 0px 100px 50px 100px;
 
-}
-#features-icon{
-    color:rgb(34, 43, 73);
-    padding-top : 10px;
-}
-#features-icon2{
-    color:#f6f7f8;
-    padding-top : 10px;
-}
-.project1-screenshot{
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px 100px 50px 100px;
+.project-images{
+    border-radius: 15px;
 }
 
-.project1-screenshot h3{
-   
-    padding-top : 50px;
-    text-align: center;
-}
-#bae1{
-    
-    min-height: 70vh;
-    background: url(img/bae-1.jpg);
-    background-size: 100% 100%;
-}
-#bae2{
-  
-    min-height: 70vh;
-    background: url(img/bae-2.jpg);
-    background-size: 100% 100%;
-}
-#bae3{
-  
-    min-height: 70vh;
-    background: url(img/bae-3.jpg);
-   background-size: 100% 100%;
-}
-#bae4{
-   
-    min-height: 70vh;
-    background: url(img/bae-4.jpg);
-    background-size: 100% 100%;
-}
-#bae5{
-   
-    min-height: 70vh;
-    background: url(img/bae-5.jpg);
-    background-size: 100% 100%;
-}
 
-#bae6{
-   
-    min-height: 70vh;
-    background: url(img/bae-6.jpg);
-    background-size: 100% 100%;
-}
 
-#bae7{
-   
-    min-height: 70vh;
-    background: url(img/bae-7.jpg);
-    background-size: 100% 100%;
-}
-
-#bae8{
-   
-    min-height: 70vh;
-    background: url(img/bae-8.PNG);
-    background-size: 100% 100%;
-}
 #btnSeeCode {
     padding: 10px 50px 10px 50px;
     border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: #FFE01B;
+    border-color: #FFE01B;
+    color:rgb(17, 16, 16);
+}
+#btnSeeCode:hover{
+    background-color: #FFE01B;
+    color:#F8f8f8;
+   
+}
+#btnSeeCode2 {
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #3627be;
+    border-color: #3627be;
+    color:#f8f8f8;
+}
+#btnSeeCode2:hover{
+    background-color: #3627be;
+    color:rgb(19, 17, 17);
    
 }
 /*project2*/
@@ -1121,20 +1043,11 @@ mark.footer-mark{
     .narrow{  
         padding: 50px 30px 50px 30px;
     }
-    .projects-box{
-        padding: 50px 30px 50px 30px;
+    .features{
+        justify-content: center;
+        text-align: center;
     }
-  
-    .project1-submain{
-    background: url(img/bae2.png);
-    background-size: 100% 100%;
-    padding: 100px 0 100px 0;
-    }
-    .project2-submain{
-        background: url(img/project2-logo2.png);
-        background-size: 100% 100%;
-        padding: 150px 0 150px 0;
-    }
+   
     .initial{
         font-size:3rem;
        
@@ -1152,28 +1065,12 @@ mark.footer-mark{
         font-size:0.7em;
        
       }
-    #project1-tool{
-        padding: 30px 50px 30px 70px;
-     
-    }
-    #project2-tool{
-        padding: 0px 50px 50px 50px;
-    }
    
-    #project1-about {
-
-        margin:20px;
-    }
     #project2-about {
 
         margin:20px;
     }
-    #project1-features{
-        padding: 30px 50px 30px 50px;
-    }
-    .project1-screenshot{
-        padding: 30px 50px 30px 50px;
-    }
+  
     .project2Video{
         width: 300px;
         height: 200px;
@@ -1189,6 +1086,11 @@ mark.footer-mark{
     margin-bottom: 30px;
     margin-top: 30px;
     }
+    #btnSeeCode2 {
+        padding: 7px 30px 7px 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        }
     .heading-underline3{
         width:3rem;
         margin: 20px auto;
