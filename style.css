@@ -299,7 +299,6 @@ img {
     
 }
 #subject-text3{
-    padding-top:30px;
     font-size: 2.5em;
     padding-bottom: 30px;
     
@@ -779,13 +778,13 @@ svg circle:nth-child(2) {
     border-radius: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
-    background-color: #3627be;
-    border-color: #3627be;
+    background-color: #1a3386;
+    border-color: #1a3386;
     color:#f8f8f8;
 }
 #btnSeeCode2:hover{
-    background-color: #3627be;
-    color:rgb(19, 17, 17);
+    background-color: #1a3386;
+    color:rgb(0, 0, 0);
    
 }
 /*project2*/
@@ -873,83 +872,7 @@ svg circle:nth-child(2) {
     margin-bottom: 50px;
     
 }
-/* project 3 */
-.project3-submain{
-    background: url(img/buddyImage3.jpeg);
-    background-size: 100% 100%;
-    padding: 250px 0 250px 0;
-    width: 100%;
-    height:auto;
-  /* background: linear-gradient(to bottom, rgb(255, 218, 8), rgb(255, 246, 114));*/
-}
-#b1{
-   
-    min-height: 70vh;
-    background: url(img/buddies1.PNG);
-    background-size: 100% 100%;
-}
-#b2{
-   
-    min-height: 70vh;
-    background: url(img/buddies2.PNG);
-    background-size: 100% 100%;
-}
-#b3{
-   
-    min-height: 70vh;
-    background: url(img/buddies3.PNG);
-    background-size: 100% 100%;
-}
-#b4{
-   
-    min-height: 70vh;
-    background: url(img/buddies4.PNG);
-    background-size: 100% 100%;
-}
-#b5{
-   
-    min-height: 70vh;
-    background: url(img/buddies5.PNG);
-    background-size: 100% 100%;
-}
-#b6{
-   
-    min-height: 70vh;
-    background: url(img/buddies6.PNG);
-    background-size: 100% 100%;
-}
-#b7{
-   
-    min-height: 70vh;
-    background: url(img/buddies7.PNG);
-    background-size: 100% 100%;
-}
-#b9{
-   
-    min-height: 70vh;
-    background: url(img/buddies8.PNG);
-    background-size: 100% 100%;
-}
-#b10{
-    min-height: 70vh;
-    background: url(img/buddies9.PNG);
-    background-size: 100% 100%;
-}
-#b11{
-    min-height: 70vh;
-    background: url(img/buddies10.PNG);
-    background-size: 100% 100%;
-}
-#b12{
-    min-height: 70vh;
-    background: url(img/buddies11.PNG);
-    background-size: 100% 100%;
-}
-#b8{
-    min-height: 70vh;
-    background: url(img/buddies12.PNG);
-    background-size: 100% 100%;
-}
+
 /*footer*/
 footer{
     overflow: hidden;
@@ -1012,6 +935,9 @@ mark.footer-mark{
     .main h3{
         font-size: 2.3em;
        
+    }
+    #subject-text3{
+        padding-top:15px;
     }
     #smallFont{
         font-size: 0.9rem;
