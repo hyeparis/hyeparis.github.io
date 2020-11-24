@@ -969,6 +969,10 @@ mark.footer-mark{
     .narrow{  
         padding: 50px 30px 50px 30px;
     }
+    .projects-box{
+        padding: 50px 30px 50px 30px;
+    
+    }
     .features{
         justify-content: center;
         text-align: center;
