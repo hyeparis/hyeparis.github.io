@@ -16,20 +16,39 @@ body{
     width: 100%;
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-   
+}
+.cursor{
+    width: 25px;
+    height: 25px;
+    background-color: #FFE01B;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration : 2ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after{
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: #FFE01B;
+    border-radius: 50%;
+   position: absolute;
 
 }
 
-@keyframes transitionIn{
+
+@keyframes cursorAnim{
     from{
-        opacity: 0;
-        transform: translateX(0px);
+        transform: scale(1);
     }
     to{
-        opacity: 1;
-        transform: translateX(0);
+        transform: scale(.7);
     }
 }
+
 #header {
     position: absolute;
     z-index: 10;
@@ -187,6 +206,7 @@ mark.num2{
     padding: 10px 20px;
     font-size:1em;
     background-color:#FFE01B;
+    
 }
 .main #btnResume:hover{
     border-color:  #ffca1b;
@@ -255,6 +275,7 @@ img {
     text-align: center;
     justify-content: center;
 }
+
 .aboutProfile{
     background: #ffefd6;
     padding: 100px;
